@@ -155,11 +155,11 @@ main {
     align-items: center;
     justify-content: center;
     gap: 9px;
-    min-height: 54px;
-    padding: 14px 22px;
+    min-height: 64px;
+    padding: 18px 26px;
     border: 1px solid transparent;
     border-radius: var(--radius);
-    font-size: 1rem;
+    font-size: 1.12rem;
     font-weight: 500;
     letter-spacing: -0.005em;
     white-space: nowrap;
@@ -176,15 +176,9 @@ main {
     color: #fff;
 }
 
-.btn-ghost {
-    border-color: var(--line);
-    background: var(--surface);
-    color: var(--ink-soft);
-}
-
 .icon {
-    width: 19px;
-    height: 19px;
+    width: 23px;
+    height: 23px;
     flex: none;
 }
 
@@ -261,11 +255,6 @@ main {
         background: var(--whatsapp-dark);
     }
 
-    .btn-ghost:hover {
-        border-color: var(--ink);
-        color: var(--ink);
-    }
-
     .snapcode-link:hover {
         opacity: 0.85;
     }
@@ -299,6 +288,16 @@ main {
 
     .actions {
         margin-top: 32px;
+    }
+
+    .btn {
+        min-height: 68px;
+        font-size: 1.18rem;
+    }
+
+    .icon {
+        width: 25px;
+        height: 25px;
     }
 
     .card {
